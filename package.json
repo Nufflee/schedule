@@ -25,5 +25,8 @@
     "typescript": "^2.9.2",
     "uglifyify": "^5.0.0",
     "watchify": "^3.11.1"
+  },
+  "devDependencies": {
+    "browserify-livereload": "^1.0.10"
   }
 }
