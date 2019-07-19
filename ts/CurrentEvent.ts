@@ -22,7 +22,7 @@ export default class CurrentEvent implements UiComponent {
                 ),
                 new html.Div(
                     new html.Href(
-                        this._event.channel ? this._event.channel : "https://twitch.tv/tsoding",
+                        this._event.channel ? this._event.channel : "https://twitch.tv/nuffleee",
                         new html.Tag(
                             "i",
                             new html.Empty(),

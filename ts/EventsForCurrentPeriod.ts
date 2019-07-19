@@ -19,7 +19,7 @@ export default class EventsForCurrentPeriod implements UiComponent {
         new html.Div(
             new ComponentsList(
                 new list.MappedList(
-                    new list.ListOfNumbersRange(1, 16),
+                    new list.ListOfNumbersRange(1, 7),
                     (_, i) => new EventsForDay(
                         this._state,
                         day.clone().add(i, 'days').format("YYYY-MM-DD"),

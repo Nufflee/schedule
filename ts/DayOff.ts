@@ -16,7 +16,7 @@ export default class DayOff implements UiComponent {
         new html.Div(
             new ComponentsArray ([
                 new html.H1(
-                    new html.Text("Day off")
+                    new html.Text("Who knows?")
                 ),
                 new html.Div(
                     new html.Text(
