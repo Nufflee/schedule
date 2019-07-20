@@ -44,6 +44,11 @@ body {
   text-align: right;
   color: #f43841;
 }
+.event .copy {
+  color: #515151;
+  cursor: pointer;
+  margin-left: 5px;
+}
 .event .description {
   margin-top: 20px;
   text-align: left;
