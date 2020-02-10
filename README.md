@@ -1,11 +1,10 @@
-[![Tsoding](https://img.shields.io/badge/twitch.tv-tsoding-purple?logo=twitch&style=for-the-badge)](https://www.twitch.tv/tsoding)
-[![Build Status](https://travis-ci.org/tsoding/schedule.svg?branch=master)](https://travis-ci.org/tsoding/schedule)
+[![nuffleee](https://img.shields.io/badge/twitch.tv-nufflee-purple?logo=twitch&style=for-the-badge)](https://www.twitch.tv/nuffleee)
 
-# Schedule for Tsoding Streams
+# Schedule for Nufflee Streams
 
-Schedule for Tsoding Streams. Front-End only Single Page Application without any Back-End. Makes all of the schedule building work yours computer problem. Saves me money on hosting.
+Schedule for Nufflee streams. Front-End only Single Page Application without any Back-End. Makes all of the schedule building work yours computer problem. Saves me money on hosting.
 
-Deployed in https://tsoding.github.io/schedule/
+Deployed on https://nufflee.github.io/schedule/
 
 ## Prerequisites
 
