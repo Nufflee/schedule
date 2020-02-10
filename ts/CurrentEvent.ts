@@ -24,21 +24,25 @@ export default class CurrentEvent implements UiComponent {
                             "i",
                             new html.Empty(),
                             {"class": "watch fas fa-external-link-alt fa-lg"}
-                        )
+                        ),
+                        true
                     ),
                     {"class": "watch"}
                 ),
                 new html.H1(
                     new html.Href(
                         `${this._event.url}`,
-                        new html.Text(`${this._event.title}`)
+                        new html.Text(`${this._event.title}`),
+                        true
                     ),
                 ),
                 new Countdown(this._event.datetime, "started "),
                 new html.Div(
                     new html.Href(
                         this._event.channel,
-                        new html.Text(this._event.channel)),
+                        new html.Text(this._event.channel),
+                        true
+                    ),
                     {"class": "channel"}
                 ),
                 new html.Div(

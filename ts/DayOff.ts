@@ -29,4 +29,3 @@ export default class DayOff implements UiComponent {
         ).appendTo(entry);
     }
 }
-

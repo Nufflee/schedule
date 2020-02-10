@@ -7,7 +7,7 @@ import UiComponent from './UiComponent';
 import Timestamp from './Timestamp';
 
 export default class CancelledEvent implements UiComponent {
-    constructor(private _event: dto.Event, 
+    constructor(private _event: dto.Event,
                 private _timestamp: string) {
     }
 
@@ -18,14 +18,17 @@ export default class CancelledEvent implements UiComponent {
                 new html.H1(
                     new html.Href(
                         `${this._event.url}`,
-                        new html.Text(`${this._event.title}`)
+                        new html.Text(`${this._event.title}`),
+                        true
                     )
                 ),
                 new Countdown(this._event.datetime, "should've started "),
                 new html.Div(
                     new html.Href(
                         this._event.channel,
-                        new html.Text(this._event.channel)),
+                        new html.Text(this._event.channel),
+                        true
+                    ),
                     {"class": "channel"}
                 ),
                 new html.Div(
