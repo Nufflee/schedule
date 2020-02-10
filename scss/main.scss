@@ -48,6 +48,7 @@ body {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        color: $green;
     }
 
     .countdown {
@@ -123,7 +124,12 @@ body {
 .event.past {
     color: $dimmed_foreground;
     background: $background;
+
     a {
+        color: $dimmed_foreground;
+    }
+
+    h1 {
         color: $dimmed_foreground;
     }
 
@@ -139,6 +145,12 @@ body {
         font-size: 50px;
         transform: rotate(20deg);
         top: -83.75px;
+    }
+}
+
+.event.off {
+    h1 {
+        color: $foreground;
     }
 }
 

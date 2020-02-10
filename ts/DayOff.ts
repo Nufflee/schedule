@@ -25,7 +25,7 @@ export default class DayOff implements UiComponent {
                     {"class": "countdown"}
                 )
             ]),
-            {"class": moment().diff(datetime, 'seconds') > 0 ? "event past" : "event"}
+            {"class": moment().diff(datetime, 'seconds') > 0 ? "event past" : "event off"}
         ).appendTo(entry);
     }
 }

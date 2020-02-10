@@ -30,11 +30,13 @@ export default class CurrentEvent implements UiComponent {
                     {"class": "watch"}
                 ),
                 new html.H1(
-                    new html.Href(
-                        `${this._event.url}`,
+                    this._event.url ?
+                        new html.Href(
+                            `${this._event.url}`,
+                            new html.Text(`${this._event.title}`),
+                            true
+                        ) :
                         new html.Text(`${this._event.title}`),
-                        true
-                    ),
                 ),
                 new Countdown(this._event.datetime, "started "),
                 new html.Div(

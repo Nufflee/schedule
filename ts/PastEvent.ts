@@ -16,11 +16,13 @@ export default class PastEvent implements UiComponent {
             new ComponentsArray([
                 new Timestamp(this._timestamp),
                 new html.H1(
-                    new html.Href(
-                        `${this._event.url}`,
+                    this._event.url ?
+                        new html.Href(
+                            `${this._event.url}`,
+                            new html.Text(`${this._event.title}`),
+                            true
+                        ) :
                         new html.Text(`${this._event.title}`),
-                        true
-                    )
                 ),
                 new Countdown(this._event.datetime, "finished "),
                 new html.Div(
